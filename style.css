@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #5CBAFF;
+    box-shadow: 3px 1px 20px 0px rgb(121, 118, 118);
+    margin-bottom: 1px;
+}
+
+header nav{
+    width: 48%;
+    margin: auto;
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px 0;
+
+
+}
+header nav ul li{
+
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+header nav ul li img{
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+
+}
+.content{
+
+    display: flex;
+    
+    
+}
+.left{
+    width: 40%;
+    background: #5CBAFF;
+    padding-top: 100px;
+
+}
+.left img{
+    width: 90%;
+
+}
+.right-form{
+    width: 60%;
+    background: #0093FF;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+}
+.form-content{ 
+    width: 50%;
+
+
+}
+.form-content h3{
+    color: #fff;
+    font-size: 40px;
+    font-family:serif;
+}
+.form-content p{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+
+}
+.form-content h4{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+
+}
+.form-content form{
+
+}
+.form-content form input{
+    width: 100%;
+    border: navajowhite;
+    padding: 10px 0 10px 5px;
+    margin: 5px 0;
+
+}
+.form-content form input[type="submit"]{ 
+    width: 20%;
+    padding-left: 0;
+    text-align: center;
+    color: rgb(59, 56, 56);
+    font-weight: 700;
+
+}
+
+.form-content form input::placeholder{
+
+    color: rgb(167, 162, 162);
+}
+
+
+.form-content ul{ 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: rgb(253, 250, 250);
+    padding: 50px 0;
+    font-size: 15px;
+  
+}
+
+
